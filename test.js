@@ -29,7 +29,7 @@ test("One euro should be 1.206 dollars", function(){
 //second
 
 //****************************************************/ /
-test("convertir de Dollar a Yen", function(){
+test("convertir de Dollar a Yen should be 373.04", function(){
     // importo la funcion desde app.js
     const { fromDollarToYen } = require('./app.js')
 
